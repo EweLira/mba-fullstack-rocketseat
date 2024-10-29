@@ -1,6 +1,6 @@
 # Travelgram 
 
-![banner](assets/images/1.jpeg)
+![banner](assets/images/1.png)
 
 
 ## 📋 Sobre o Projeto
