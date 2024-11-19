@@ -2,76 +2,111 @@
 <html lang="pt-BR">
 
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portal de notícias</title>
-  <link rel="stylesheet" href="styles/index.css">
-  <link
-  href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,400;0,700;1,900&display=swap"
-  rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal de notícias</title>
+    <link rel="stylesheet" href="styles/index.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
-  <header class="container">
-    <nav id="primary" class="grid grid-flow-col">
-        <div>
-            <img src="assets/icons/List.svg" alt="ícone de menu">
-            <strong>Menu</strong>
-        </div>
+    <header class="container">
+        <nav id="primary" class="grid grid-flow-col">
+            <div>
+                <img src="assets/icons/List.svg" alt="ícone de menu">
+                <strong>Menu</strong>
+            </div>
 
-        <div>
-            <img src="assets/Logo.svg" alt="TechNews logo">
-        </div>
+            <div>
+                <img src="assets/Logo.svg" alt="TechNews logo">
+            </div>
 
-        <div>
-            <strong>Buscar</strong>
-            <img src="assets/icons/MagnifyingGlass.svg" alt="ícone de lupa para pesquisa">
-        </div>
-    </nav>
-    <nav id="secondary" class="grid grid-flow-col">
-        <a href="#">Inteligência Artificial</a>
-        <a href="#">Blockchain</a>
-        <a href="#">Hologramas</a>
-        <a href="#">Internet</a>
-        <a href="#">Vestíveis</a>
-        <a href="#">Realidade Aumentada</a>
-        <a href="#">Realidade Virtual</a>
-      </nav>
-</header>
-<main class="grid container">
-  <section id="featured" class="grid grid-flow-col gap-16">
-    <figure class="card">
-      <img src="assets/images/Image 01.png" alt="Imagem de destaque">
-      <figcaption>
-        <span class="content-tag">robótica</span>
-        <h2 class="text-2xl">Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e eficiência nas residências.
-        </h2>
-      </figcaption>
-    </figure>
+            <div>
+                <strong>Buscar</strong>
+                <img src="assets/icons/MagnifyingGlass.svg" alt="ícone de lupa para pesquisa">
+            </div>
+        </nav>
+        <nav id="secondary" class="grid grid-flow-col">
+            <a href="#">Inteligência Artificial</a>
+            <a href="#">Blockchain</a>
+            <a href="#">Hologramas</a>
+            <a href="#">Internet</a>
+            <a href="#">Vestíveis</a>
+            <a href="#">Realidade Aumentada</a>
+            <a href="#">Realidade Virtual</a>
+        </nav>
+    </header>
 
-    <div class="grid grid-cols-2 gap-16">
-      <figure>
-        <img src="assets/images/Image 02.png" alt="">
-        <span class="content-tag">hologramas</span>
-        <h2 class="text-2xl">Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!
-        </h2>
-      </figure>
-      <figure>
-        <img src="assets/images/Image 03.png" alt="">
-      </figure>
-      <figure>
-        <img src="assets/images/Image 04.png" alt="">
-      </figure>
-      <figure>
-        <img src="assets/images/Image 05.png" alt="">
-      </figure>
-    </div>
-  </section>
+    <main class="grid container">
+        <section id="featured" class="grid grid-flow-col gap-16">
+            <figure class="card">
+                <img src="assets/images/Image 01.png" alt="Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e
+                eficiência nas residências.">
 
-</main>
+                <figcaption>
+                    <span class="content-tag">robótica</span>
+                    <h2 class="text-2xl">
+                        Robôs domésticos começam a ser adotados para tarefas diárias, prometendo mais conforto e
+                        eficiência nas residências.
+                    </h2>
+                </figcaption>
+
+
+            </figure>
+
+            <div class="grid grid-cols-2 gap-16">
+                <figure class="card">
+                    <img src="assets/images/Image 02.png" alt="Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!">
+
+                    <figcaption>
+                        <span class="content-tag">hologramas</span>
+                        <h2 class="text-lg">
+                            Novo Smartphone Projetor 3D chega ao mercado, transformando a forma como vemos nossas telas!
+                        </h2>
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img src="assets/images/Image 03.png" alt="Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comunicamos.">
+
+                    <figcaption>
+                        <span class="content-tag">internet</span>
+                        <h2 class="text-lg">
+                            Tecnologia 6G chega às metrópoles brasileiras, prometendo revolucionar a forma como vivemos e nos comuni...
+                        </h2>
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img src="assets/images/Image 04.png" alt="Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o bem-estar pessoal.">
+
+                    <figcaption>
+                        <span class="content-tag">vestíveis</span>
+                        <h2 class="text-lg">
+                            Empresa lança relógio inteligente capaz de monitorar a saúde mental, oferecendo insights valiosos para o...
+                        </h2>
+                    </figcaption>
+                </figure>
+
+                <figure class="card">
+                    <img src="assets/images/Image 05.png" alt="Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem tradicional.">
+
+                    <figcaption>
+                        <span class="content-tag">realidade virtual</span>
+                        <h2 class="text-lg">
+                            Escolas adotam a tecnologia VR para proporcionar experiências imersivas, transformando a aprendizagem trad...
+                        </h2>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
+
 </body>
 
 </html>
