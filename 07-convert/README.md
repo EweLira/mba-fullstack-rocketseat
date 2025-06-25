@@ -1,5 +1,5 @@
 # Convert
-![banner](assets/img/site.png)
+![banner](img/site.png)
 
 ## 📋 Sobre o Projeto
 
