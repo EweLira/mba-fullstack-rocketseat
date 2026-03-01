@@ -1,6 +1,6 @@
 # ⏱️ Ignite Timer  
 
-![banner](src/assets/banner.jpeg)
+![banner](src/assets/banner.jpg)
 
 ## 📋 Sobre o Projeto  
 
